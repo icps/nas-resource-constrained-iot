@@ -36,7 +36,7 @@ Prior to running the experiments, make sure to install the following required li
 ### Project Structure and tips
 
 - As the full experiment can take a few days to run completely, we recommend you to first execute a small experiment, changing the parameters in the ``main.py``. 
-For instance, you can change the number of generations (variable ``num_generations``, line 88) from 50 to 10 or less.
+For instance, you can change the number of generations (line 88) from 50 to 10 or less.
 
 - For each run (line 94), you must change the run parameter in the ``main.py`` to not overwrite the previous experiments.
 
