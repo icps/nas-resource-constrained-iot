@@ -36,7 +36,7 @@ Please, consider to cite them as well!
 
 ### Software requirements
 
-This code is tested on Linux Ubuntu 18.04.03 and Debian 10. 
+We tested this code on Linux Ubuntu 18.04.03 and Debian 10. 
 We use Python (version 3.7.3) with the Anaconda distribution (version 4.7.11). 
 Prior to running the experiments, make sure to install the following required libraries:
 
