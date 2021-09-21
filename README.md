@@ -2,14 +2,17 @@
 
 ## Abstract
 
-The traditional process of extracting knowledge from Internet of Things (IoT) happens through Cloud Computing, by offloading the data generated in the IoT device to be processed in the cloud. 
-However, this regime greatly increases data transmission and monetary costs, in addition, it is prone to privacy leakage issues. 
-Therefore, it is of paramount importance to find solutions that not only achieve good results, but can be processed as close as possible to an IoT object. 
-In this scenario, we developed a solution based on Neural Architecture Search (NAS) to generate models that are small enough to be deployed to IoT devices, without significantly losing inference performance. 
-Our approach is based on Evolutionary Algorithms (AE), such as Grammatical Evolution, EA 1 + $\lambda$, and EA multi-objectives. 
-Using model size and accuracy as fitness, our proposal was able to generate a Convolutional Neural Network (CNN) model with less than 2 MB, achieving an accuracy of about 81% in the CIFAR-10 dataset and 99% in MNIST, with only 150 thousand parameters approximately. 
+The traditional process of extracting knowledge from Internet of Things (IoT) happens through Cloud Computing by offloading the data generated in the IoT device to be processed in the cloud. 
+However, this regime significantly increases data transmission and monetary costs and may have privacy issues. 
+Therefore, it is paramount to find solutions that achieve good results and can be processed as close as possible to an IoT object. 
+In this scenario, we developed a Neural Architecture Search (NAS) solution to generate models small enough to be deployed to IoT devices without significantly losing inference performance. 
+We based our approach on Evolutionary Algorithms, such as Grammatical Evolution and NSGA-II. 
+Using model size and accuracy as fitness, our proposal generated a Convolutional Neural Network model with less than 2MB, achieving an accuracy of about 81% in the CIFAR-10 and 99% in MNIST, with only 150 thousand parameters approximately.
 
-This paper is available at: LINK
+
+This work was presented at [IEEE Symposium on Computers and Communications (ISCC) 2021](https://iscc2021.unipi.gr/index.php). 
+
+This paper is available at: #TODO
 
 If you find this code useful, please consider citing our paper:
 
