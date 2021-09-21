@@ -13,9 +13,20 @@ This paper is available at: LINK
 
 If you find this code useful, please consider citing our paper:
 
-BIBTEX
+```
+@inproceedings{Card2021:Neural,
+author = "Isadora Cardoso-Pereira and Gisele Lobo-Pappa and Heitor S Ramos",
+title  = "Neural Architecture Search for {Resource-Constrained} Internet of Things Devices",
+booktitle = "2021 IEEE Symposium on Computers and Communications (ISCC) (IEEE ISCC 2021)",
+address = virtual,
+days = 4,
+month = sep,
+year = 2021,
+keywords = "Neural Architecture Search; Internet of Things; Resource-constrained devices",
+}
+```
 
-Note that this code is heavily based on [Fast-DENSER](https://github.com/fillassuncao/fast-denser). 
+Note that this code is based on [Fast-DENSER](https://github.com/fillassuncao/fast-denser). 
 Please, consider to cite them as well!
 
 ## About the Code
